@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusparaja | Commercial Video Director & Creative Producer</title>
+    <meta name="description" content="Cinematic commercial video director crafting high-converting visual campaigns for hospitality, luxury real estate, and retail brands.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Syne (Display & Luxury Headings) & Plus Jakarta Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#090a0c',
+                        surface: '#111215',
+                        surfaceBorder: '#202227',
+                        surfaceHover: '#181a1f',
+                        goldSubtle: '#c5a880',
+                    },
+                    fontFamily: {
+                        display: ['Syne', 'sans-serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #090a0c;
+            color: #eceff4;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphism nav */
+        .glass-header {
+            background: rgba(9, 10, 12, 0.78);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+
+        /* Subtle radial ambient glows */
+        .ambient-glow {
+            position: absolute;
+            border-radius: 9999px;
+            filter: blur(140px);
+            pointer-events: none;
+            opacity: 0.12;
+            z-index: 0;
+        }
+
+        /* Smooth scrollbars */
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #090a0c;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #252830;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #393e4a;
+        }
+
+        .hero-title-gradient {
+            background: linear-gradient(180deg, #FFFFFF 20%, #A0A5B2 75%, #4C5161 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="relative selection:bg-neutral-800 selection:text-white antialiased">
+
+    <!-- Ambient Subtle Glows -->
+    <div class="ambient-glow bg-neutral-200 w-[550px] h-[550px] top-[-100px] left-1/2 -translate-x-1/2"></div>
+    <div class="ambient-glow bg-amber-100 w-[400px] h-[400px] top-[45%] right-[-150px]"></div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 w-full glass-header border-b border-surfaceBorder/70 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Brand -->
+            <a href="#" class="group flex items-center gap-2.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-white group-hover:scale-125 transition-transform duration-300"></span>
+                <span class="font-display font-bold text-lg tracking-widest uppercase text-white">PUSPARAJ A<span class="text-neutral-500">.</span></span>
+            </a>
+
+            <!-- Nav Links -->
+            <nav class="hidden md:flex items-center gap-9 text-xs font-semibold uppercase tracking-wider text-neutral-400">
+                <a href="#work" class="hover:text-white transition-colors duration-200">Commercial Work</a>
+                <a href="#process" class="hover:text-white transition-colors duration-200">Production Edge</a>
+                <a href="#about" class="hover:text-white transition-colors duration-200">Director</a>
+                <a href="#contact" class="hover:text-white transition-colors duration-200">Inquire</a>
+            </nav>
+
+            <!-- CTA -->
+            <div class="flex items-center gap-3">
+                <a href="#contact" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-black hover:bg-neutral-200 transition-all duration-200 hover:shadow-[0_0_25px_rgba(255,255,255,0.2)]">
+                    <span>Discovery Call</span>
+                    <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-10 max-w-7xl mx-auto px-6 pt-16 md:pt-28 pb-24">
+        
+        <!-- Hero Section -->
+        <section class="max-w-4xl mx-auto text-center mb-32 md:mb-40">
+            <!-- Availability Pill -->
+            <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-surfaceBorder bg-surface/80 text-xs font-medium text-neutral-400 mb-8 backdrop-blur-md">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span class="font-mono text-[11px] tracking-wide text-neutral-300">COMMISSIONS OPEN &bull; Q4 / 2026</span>
+            </div>
+            
+            <!-- Headline -->
+            <h1 class="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight hero-title-gradient leading-[1.05] mb-8">
+                Pusparaja
+            </h1>
+
+            <p class="font-display text-lg sm:text-2xl md:text-3xl text-neutral-300 font-medium tracking-tight mb-8">
+                Commercial Video Director &amp; Creative Producer
+            </p>
+            
+            <p class="text-base sm:text-lg text-neutral-400 font-normal leading-relaxed max-w-2xl mx-auto mb-12">
+                Engineering cinematic commercial films for hospitality, prestige real estate, and retail brands. Crafting high-converting visual narratives designed to turn attention into reservations, listings, and customer loyalty.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#work" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white text-black font-bold text-xs uppercase tracking-wider hover:bg-neutral-200 transition flex items-center justify-center gap-2">
+                    <span>Explore Commercial Archive</span>
+                    <i data-lucide="play" class="w-3.5 h-3.5 fill-black"></i>
+                </a>
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-full border border-surfaceBorder bg-surface/70 hover:bg-surfaceBorder text-neutral-200 font-bold text-xs uppercase tracking-wider transition flex items-center justify-center gap-2">
+                    <span>Book a Discovery Call</span>
+                    <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Work / Projects Section -->
+        <section id="work" class="scroll-mt-28 mb-36">
+            <!-- Filter Bar -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-8 border-b border-surfaceBorder">
+                <div>
+                    <span class="text-xs uppercase font-mono tracking-widest text-neutral-500 block mb-2">Portfolio Showcase</span>
+                    <h2 class="font-display text-2xl sm:text-4xl font-bold tracking-tight text-white">Commercial Projects</h2>
+                </div>
+
+                <!-- Category Tabs -->
+                <div id="filter-buttons" class="flex flex-wrap gap-2">
+                    <button data-filter="all" class="filter-btn active-tab px-4 py-2 rounded-full text-xs font-medium transition-all bg-white text-black">
+                        All Work
+                    </button>
+                    <button data-filter="hospitality" class="filter-btn px-4 py-2 rounded-full text-xs font-medium text-neutral-400 border border-surfaceBorder hover:border-neutral-600 hover:text-white transition-all">
+                        Hospitality & Dining
+                    </button>
+                    <button data-filter="realestate" class="filter-btn px-4 py-2 rounded-full text-xs font-medium text-neutral-400 border border-surfaceBorder hover:border-neutral-600 hover:text-white transition-all">
+                        Real Estate & Living
+                    </button>
+                    <button data-filter="retail" class="filter-btn px-4 py-2 rounded-full text-xs font-medium text-neutral-400 border border-surfaceBorder hover:border-neutral-600 hover:text-white transition-all">
+                        Retail & Brand
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dynamic Project Grid -->
+            <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-10">
+                <!-- Injected via JavaScript from the PROJECTS array below -->
+            </div>
+        </section>
+
+        <!-- Production Edge / Creative Process Section -->
+        <section id="process" class="scroll-mt-28 mb-36">
+            <div class="p-8 sm:p-12 md:p-16 rounded-3xl border border-surfaceBorder bg-surface/50 backdrop-blur-md relative overflow-hidden">
+                <div class="max-w-2xl mb-14">
+                    <span class="text-xs uppercase font-mono tracking-widest text-neutral-500 block mb-3">Workflow Advantage</span>
+                    <h3 class="font-display text-2xl sm:text-4xl font-bold text-white tracking-tight">The Commercial Edge</h3>
+                    <p class="text-neutral-400 text-sm sm:text-base mt-3">Combining agency strategic vision with advanced generative motion pipelines to deliver campaign assets faster without compromising cinematic fidelity.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Step 01 -->
+                    <div class="p-6 rounded-2xl bg-obsidian/70 border border-surfaceBorder flex flex-col justify-between">
+                        <div>
+                            <span class="font-mono text-xs text-neutral-500 block mb-4">PHASE / 01</span>
+                            <div class="w-10 h-10 rounded-xl bg-surface border border-surfaceBorder flex items-center justify-center text-white mb-6">
+                                <i data-lucide="sparkles" class="w-5 h-5 text-neutral-300"></i>
+                            </div>
+                            <h4 class="font-display text-lg font-bold text-white mb-2">Script & Concept</h4>
+                            <p class="text-xs sm:text-sm text-neutral-400 leading-relaxed">
+                                Audience hook design, commercial angle formulation, and frame-by-frame visual moodboards built around your marketing goals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 02 -->
+                    <div class="p-6 rounded-2xl bg-obsidian/70 border border-surfaceBorder flex flex-col justify-between">
+                        <div>
+                            <span class="font-mono text-xs text-neutral-500 block mb-4">PHASE / 02</span>
+                            <div class="w-10 h-10 rounded-xl bg-surface border border-surfaceBorder flex items-center justify-center text-white mb-6">
+                                <i data-lucide="video" class="w-5 h-5 text-neutral-300"></i>
+                            </div>
+                            <h4 class="font-display text-lg font-bold text-white mb-2">AI-Assisted Production & Motion</h4>
+                            <p class="text-xs sm:text-sm text-neutral-400 leading-relaxed">
+                                Multi-layered visual generation, custom lighting rigs, and camera choreography to achieve photorealistic, glitch-free cinematic shots.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 03 -->
+                    <div class="p-6 rounded-2xl bg-obsidian/70 border border-surfaceBorder flex flex-col justify-between">
+                        <div>
+                            <span class="font-mono text-xs text-neutral-500 block mb-4">PHASE / 03</span>
+                            <div class="w-10 h-10 rounded-xl bg-surface border border-surfaceBorder flex items-center justify-center text-white mb-6">
+                                <i data-lucide="sliders" class="w-5 h-5 text-neutral-300"></i>
+                            </div>
+                            <h4 class="font-display text-lg font-bold text-white mb-2">Sound Design & Polish</h4>
+                            <p class="text-xs sm:text-sm text-neutral-400 leading-relaxed">
+                                Hollywood-style spatial sound effects, licensed music, crisp typography overlays, and professional color grading in DaVinci Resolve.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Director Section -->
+        <section id="about" class="scroll-mt-28 mb-36">
+            <div class="border border-surfaceBorder rounded-3xl bg-surface/40 p-8 sm:p-12 md:p-16 flex flex-col md:flex-row items-center gap-12 md:gap-16">
+                <!-- Black & White High Contrast Avatar Placeholder -->
+                <div class="relative group flex-shrink-0">
+                    <div class="w-56 h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden border-2 border-surfaceBorder relative bg-neutral-900 shadow-2xl">
+                        <!-- Replace this src with your own headshot when ready -->
+                        <img 
+                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop" 
+                            alt="Pusparaja Headshot" 
+                            class="w-full h-full object-cover filter grayscale contrast-125 brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"
+                            onerror="this.src='https://placehold.co/400x400/15161a/ffffff?text=Pusparaja'"
+                        >
+                        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-transparent to-transparent opacity-80"></div>
+                    </div>
+                    <div class="absolute -bottom-3 -right-3 bg-obsidian border border-surfaceBorder px-3.5 py-1 rounded-full text-[11px] font-mono text-neutral-400 tracking-wider">
+                        DIR // PRODUCER
+                    </div>
+                </div>
+
+                <!-- Bio Content -->
+                <div class="space-y-5 max-w-xl text-left">
+                    <span class="text-xs uppercase font-mono tracking-widest text-neutral-500 block">The Director</span>
+                    <h3 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight">
+                        Visualizing Brands at the Frontier of Modern Commercial Video
+                    </h3>
+                    <p class="text-neutral-400 text-sm sm:text-base leading-relaxed">
+                        I am Pusparaja. As a commercial video director and creative producer, I blend disciplined cinematic storytelling with next-generation generative pipelines.
+                    </p>
+                    <p class="text-neutral-400 text-sm sm:text-base leading-relaxed">
+                        Traditional multi-week commercial shoots with 20-person crews are often slow and cost-prohibitive for rapid-growth businesses. My studio delivers the exact same visual weight, lighting nuance, and luxury grade in fractions of the time—tailored specifically for conversion on Instagram, TikTok, and digital screens.
+                    </p>
+                    <div class="pt-2 flex flex-wrap gap-2.5 text-xs font-mono text-neutral-300">
+                        <span class="px-3 py-1.5 rounded-lg bg-obsidian border border-surfaceBorder">9:16 Vertical Hooks</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-obsidian border border-surfaceBorder">16:9 4K Cinema</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-obsidian border border-surfaceBorder">Full Audio Mastering</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking / Inquiry Section -->
+        <section id="contact" class="scroll-mt-28 max-w-3xl mx-auto">
+            <div class="text-center mb-10">
+                <span class="text-xs uppercase font-mono tracking-widest text-neutral-500 block mb-2">Initiate Collaboration</span>
+                <h2 class="font-display text-3xl sm:text-5xl font-extrabold text-white mb-4 tracking-tight">Let's Produce Your Commercial</h2>
+                <p class="text-neutral-400 text-sm sm:text-base max-w-lg mx-auto">
+                    Tell me about your venue, listing, or brand. I'll outline a bespoke creative treatment and production estimate.
+                </p>
+                
+                <!-- Quick Email Action -->
+                <div class="mt-6 inline-flex items-center gap-3 px-4 py-2 rounded-full border border-surfaceBorder bg-surface/70 text-xs font-mono text-neutral-300">
+                    <span>Direct: hello@pusparaja.com</span>
+                    <button onclick="copyEmail()" class="text-neutral-400 hover:text-white transition flex items-center gap-1">
+                        <i data-lucide="copy" class="w-3.5 h-3.5" id="copy-icon"></i>
+                        <span id="copy-text">Copy</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-4 text-left p-6 sm:p-10 rounded-3xl bg-surface/50 border border-surfaceBorder backdrop-blur-md">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Your Name</label>
+                        <input required type="text" id="name" placeholder="John Doe" class="w-full bg-obsidian border border-surfaceBorder rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-neutral-500 transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Business / Brand Name</label>
+                        <input required type="text" id="business" placeholder="The Grand Bistro" class="w-full bg-obsidian border border-surfaceBorder rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-neutral-500 transition">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Industry</label>
+                        <select id="industry" class="w-full bg-obsidian border border-surfaceBorder rounded-xl px-4 py-3 text-sm text-neutral-200 focus:outline-none focus:border-neutral-500 transition">
+                            <option value="Hospitality & Dining">Hospitality & Dining</option>
+                            <option value="Real Estate & Living">Real Estate & Living</option>
+                            <option value="Retail & Brand">Retail & Local Brand</option>
+                            <option value="Other">Other Creative Vision</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Target Budget</label>
+                        <select id="budget" class="w-full bg-obsidian border border-surfaceBorder rounded-xl px-4 py-3 text-sm text-neutral-200 focus:outline-none focus:border-neutral-500 transition">
+                            <option value="$1,000 - $2,500">$1,000 – $2,500 (Single Hook Ad)</option>
+                            <option value="$2,500 - $5,000">$2,500 – $5,000 (Complete Social Campaign)</option>
+                            <option value="$5,000+">$5,000+ (Multi-Asset Brand Launch)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Project Vision &amp; Goals</label>
+                    <textarea required id="message" rows="4" placeholder="Briefly describe what you're selling, your target audience, and preferred deadline..." class="w-full bg-obsidian border border-surfaceBorder rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-neutral-500 transition"></textarea>
+                </div>
+
+                <button type="submit" class="w-full py-4 rounded-xl bg-white text-black font-bold text-xs uppercase tracking-wider hover:bg-neutral-200 transition shadow-[0_0_25px_rgba(255,255,255,0.12)]">
+                    Send Direct Inquiry
+                </button>
+                <div id="form-feedback" class="hidden text-center text-sm py-2 text-emerald-400 font-medium font-mono"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-surfaceBorder/80 py-12 text-xs text-neutral-500">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-2">
+                <span class="font-display font-bold text-white uppercase tracking-wider">PUSPARAJ A</span>
+                <span>&copy; <span id="year"></span> pusparaja.com</span>
+            </div>
+            <div class="flex items-center gap-6 text-neutral-400">
+                <a href="https://instagram.com" target="_blank" class="hover:text-white transition flex items-center gap-1.5">
+                    <i data-lucide="instagram" class="w-4 h-4"></i> Instagram
+                </a>
+                <a href="https://vimeo.com" target="_blank" class="hover:text-white transition flex items-center gap-1.5">
+                    <i data-lucide="video" class="w-4 h-4"></i> Vimeo
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="hover:text-white transition flex items-center gap-1.5">
+                    <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Lightbox Modal -->
+    <div id="video-modal" class="fixed inset-0 z-50 hidden bg-black/95 backdrop-blur-xl flex items-center justify-center p-4 sm:p-6 opacity-0 transition-opacity duration-300">
+        <div class="relative w-full max-w-4xl bg-surface border border-surfaceBorder rounded-2xl overflow-hidden shadow-2xl transform scale-95 transition-transform duration-300 max-h-[92vh] flex flex-col">
+            <!-- Modal Close Button -->
+            <button onclick="closeModal()" class="absolute top-4 right-4 z-30 w-10 h-10 rounded-full bg-black/80 hover:bg-black text-white flex items-center justify-center border border-neutral-700 transition">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <!-- Video Player Stage -->
+            <div id="modal-player-container" class="relative bg-black aspect-video w-full flex items-center justify-center overflow-hidden">
+                <!-- Dynamically populated (HTML5 video, YouTube, or Vimeo embed) -->
+            </div>
+
+            <!-- Modal Info Drawer -->
+            <div class="p-6 md:p-8 overflow-y-auto space-y-4">
+                <div class="flex flex-wrap items-center gap-2">
+                    <span id="modal-category" class="text-xs uppercase font-mono px-3 py-1 rounded bg-obsidian border border-surfaceBorder text-neutral-300">Tag</span>
+                    <span id="modal-client" class="text-xs font-mono text-neutral-400">Client: Name</span>
+                    <span id="modal-format" class="text-xs font-mono text-neutral-500">&bull; 16:9 Cinema</span>
+                </div>
+                
+                <h3 id="modal-title" class="font-display text-2xl sm:text-3xl font-bold text-white">Project Title</h3>
+                
+                <p id="modal-desc" class="text-sm text-neutral-400 leading-relaxed">Case brief and target objectives.</p>
+                
+                <div class="pt-4 border-t border-surfaceBorder flex flex-wrap items-center justify-between gap-4 text-xs">
+                    <div class="text-neutral-400">
+                        <span class="text-neutral-500 uppercase font-mono block text-[10px]">Deliverables & Tools:</span>
+                        <span id="modal-deliverables" class="text-neutral-200">9:16 Reel, 16:9 Web &bull; Runway Gen-3, DaVinci</span>
+                    </div>
+                    <button onclick="closeModal(); document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="px-5 py-2.5 rounded-full bg-white text-black font-bold uppercase tracking-wider text-[11px] hover:bg-neutral-200 transition flex items-center gap-1.5">
+                        <span>Book Similar Commercial</span>
+                        <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data Controller -->
+    <script>
+        /**
+         * =========================================================================================
+         * HOW TO ADD YOUR OWN VIDEOS TO PUSPARAJ A'S PORTFOLIO:
+         * 1. You can paste an MP4 URL, a YouTube link, or a Vimeo link into `videoUrl`.
+         * 2. Replace the `posterUrl` with a screenshot or thumbnail of your ad.
+         * 3. Change the title, client, caseStudy, and category (`hospitality`, `realestate`, `retail`).
+         * 4. Save and push this file to your GitHub repository.
+         * =========================================================================================
+         */
+        const PROJECTS = [
+            {
+                id: 1,
+                title: "Aurelia Trattoria — Spring Tasting Experience",
+                client: "Aurelia Hospitality Group",
+                category: "hospitality", // hospitality | realestate | retail
+                categoryLabel: "Hospitality & Dining",
+                format: "15s Vertical Reel (9:16)",
+                posterUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=900&auto=format&fit=crop",
+                videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                caseStudy: "Designed a sensory, dark-lux culinary commercial highlighting wood-fired techniques and crafted cocktails. Deployed across Instagram Reels to drive Friday and Saturday evening table reservations.",
+                deliverables: "15s Reel (9:16), 30s Web Banner (16:9) &bull; Midjourney v6 + Kling 1.5 + DaVinci Resolve"
+            },
+            {
+                id: 2,
+                title: "The Pavilion at Point Nepean — Coastal Luxury",
+                client: "Vanguard Prestige Properties",
+                category: "realestate",
+                categoryLabel: "Real Estate & Living",
+                format: "30s 4K Cinema (16:9)",
+                posterUrl: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=900&auto=format&fit=crop",
+                videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+                caseStudy: "Created a sunset-to-twilight cinematic walkthrough for an off-market architectural estate. Generated two high-net-worth private viewings within 48 hours of social release.",
+                deliverables: "30s Cinema Master (16:9), 3x Story Cuts &bull; Runway Gen-3 Alpha + Luma Ray + Premiere Pro"
+            },
+            {
+                id: 3,
+                title: "Santal 94 — Artisan Fragrance Unveil",
+                client: "Atelier Botanica",
+                category: "retail",
+                categoryLabel: "Retail & Brand",
+                format: "20s Hook Commercial (9:16)",
+                posterUrl: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=900&auto=format&fit=crop",
+                videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+                caseStudy: "Abstract vapor, glass refraction, and botanical particle choreography engineered to stop social feeds and articulate scent texture visually.",
+                deliverables: "20s Paid Ad Cut, Sound Design Suite &bull; Flux Pro + Kling AI + After Effects"
+            },
+            {
+                id: 4,
+                title: "Nocturne Espresso — The Dark Roast Campaign",
+                client: "Nocturne Coffee Roasters",
+                category: "hospitality",
+                categoryLabel: "Hospitality & Dining",
+                format: "10s Micro-Ad (9:16)",
+                posterUrl: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=900&auto=format&fit=crop",
+                videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+                caseStudy: "Fast-paced macro visual hooks focusing on morning crema pull, rich roast textures, and acoustic Foley sound design to trigger immediate craving.",
+                deliverables: "10s Meta Story Ad, Organic TikTok cut &bull; Luma Dream Machine + DaVinci Sound Library"
+            },
+            {
+                id: 5,
+                title: "The Glass House — Sky Residences",
+                client: "Equinox Development Corp",
+                category: "realestate",
+                categoryLabel: "Real Estate & Living",
+                format: "45s Narrative Tour (16:9)",
+                posterUrl: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=900&auto=format&fit=crop",
+                videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+                caseStudy: "A moody, atmospheric visual narrative contrasting neon city rain with warm luxury interior sanctuaries to captivate corporate executive buyers.",
+                deliverables: "45s 4K Film, Web Hero Loops &bull; Midjourney v6 + Runway Gen-3 + Topaz 4K"
+            },
+            {
+                id: 6,
+                title: "Veloce Bespoke — Heritage Tailoring",
+                client: "Veloce Melbourne",
+                category: "retail",
+                categoryLabel: "Retail & Brand",
+                format: "15s Editorial Reel (9:16)",
+                posterUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=900&auto=format&fit=crop",
+                videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+                caseStudy: "Monochromatic micro-cuts detailing shearling, wool grain, and hand-stitched tailoring. Crafted to anchor an autumn brand repositioning campaign.",
+                deliverables: "15s Fashion Cut, 3x High-Res Stills &bull; Kling 1.5 + After Effects Motion Polish"
+            }
+        ];
+
+        let currentFilter = 'all';
+
+        // Render projects grid
+        function renderProjects() {
+            const grid = document.getElementById('projects-grid');
+            grid.innerHTML = '';
+
+            const filteredProjects = currentFilter === 'all' 
+                ? PROJECTS 
+                : PROJECTS.filter(item => item.category === currentFilter);
+
+            if (filteredProjects.length === 0) {
+                grid.innerHTML = `<p class="col-span-full text-center text-neutral-500 py-16 font-mono text-sm">No commercial projects found in this category.</p>`;
+                return;
+            }
+
+            filteredProjects.forEach(project => {
+                const card = document.createElement('div');
+                card.className = "group relative rounded-2xl bg-surface border border-surfaceBorder overflow-hidden flex flex-col hover:border-neutral-600 transition-all duration-300 hover:shadow-[0_12px_40px_rgba(0,0,0,0.8)] cursor-pointer";
+                card.onclick = () => openModal(project.id);
+
+                card.innerHTML = `
+                    <!-- Thumbnail with Play Hover -->
+                    <div class="relative w-full aspect-video bg-neutral-950 overflow-hidden">
+                        <img 
+                            src="${project.posterUrl}" 
+                            alt="${project.title}"
+                            class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 opacity-80 group-hover:opacity-100"
+                            onerror="this.src='https://placehold.co/600x340/121212/888888?text=Commercial+Project'"
+                        >
+                        <!-- Dark gradient overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-black/20 to-transparent"></div>
+
+                        <!-- Hover Play Pill -->
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/30 text-white flex items-center justify-center group-hover:scale-115 group-hover:bg-white group-hover:text-black transition-all duration-300 shadow-xl">
+                                <i data-lucide="play" class="w-4 h-4 fill-current ml-0.5"></i>
+                            </div>
+                        </div>
+
+                        <!-- Format Tag -->
+                        <div class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-black/80 backdrop-blur-sm border border-neutral-800 text-[10px] font-mono tracking-wider text-neutral-300">
+                            ${project.format}
+                        </div>
+                    </div>
+
+                    <!-- Card Details -->
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <div class="text-[11px] uppercase font-mono tracking-wider text-neutral-400 mb-2">
+                                ${project.categoryLabel}
+                            </div>
+                            <h3 class="font-display text-lg font-bold text-white group-hover:text-neutral-200 transition-colors mb-2">
+                                ${project.title}
+                            </h3>
+                            <p class="text-xs text-neutral-400 leading-relaxed line-clamp-2">
+                                ${project.caseStudy}
+                            </p>
+                        </div>
+
+                        <div class="pt-5 mt-4 border-t border-surfaceBorder flex items-center justify-between text-xs text-neutral-400 group-hover:text-white transition-colors">
+                            <span class="font-mono text-[11px]">${project.client}</span>
+                            <div class="flex items-center gap-1 font-semibold">
+                                <span>Watch Film</span>
+                                <i data-lucide="arrow-right" class="w-3 h-3 group-hover:translate-x-1 transition-transform"></i>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+
+            // Re-initialize dynamic icons
+            lucide.createIcons();
+        }
+
+        // Setup filter tabs
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('bg-white', 'text-black');
+                    btn.classList.add('text-neutral-400', 'border', 'border-surfaceBorder');
+                });
+                button.classList.remove('text-neutral-400', 'border', 'border-surfaceBorder');
+                button.classList.add('bg-white', 'text-black');
+
+                currentFilter = button.dataset.filter;
+                renderProjects();
+            });
+        });
+
+        // Lightbox Modal Controller
+        const modal = document.getElementById('video-modal');
+        const playerContainer = document.getElementById('modal-player-container');
+
+        function openModal(projectId) {
+            const project = PROJECTS.find(p => p.id === projectId);
+            if (!project) return;
+
+            document.getElementById('modal-title').textContent = project.title;
+            document.getElementById('modal-client').textContent = `Client: ${project.client}`;
+            document.getElementById('modal-category').textContent = project.categoryLabel;
+            document.getElementById('modal-format').textContent = project.format;
+            document.getElementById('modal-desc').textContent = project.caseStudy;
+            document.getElementById('modal-deliverables').innerHTML = project.deliverables;
+
+            // Generate player based on video URL type
+            const url = project.videoUrl.trim();
+            if (url.includes('youtube.com') || url.includes('youtu.be')) {
+                // YouTube Embed
+                const videoId = url.includes('v=') ? url.split('v=')[1].split('&')[0] : url.split('/').pop();
+                playerContainer.innerHTML = `
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                `;
+            } else if (url.includes('vimeo.com')) {
+                // Vimeo Embed
+                const vimeoId = url.split('/').pop();
+                playerContainer.innerHTML = `
+                    <iframe class="w-full h-full" src="https://player.vimeo.com/video/${vimeoId}?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                `;
+            } else {
+                // Direct MP4 / WebM video file
+                playerContainer.innerHTML = `
+                    <video id="active-video-element" controls autoplay playsinline class="w-full h-full object-contain">
+                        <source src="${url}" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                `;
+            }
+
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.firstElementChild.classList.remove('scale-95');
+            }, 10);
+            document.body.style.overflow = 'hidden';
+            lucide.createIcons();
+        }
+
+        function closeModal() {
+            modal.classList.add('opacity-0');
+            modal.firstElementChild.classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                playerContainer.innerHTML = ''; // Stop video playback
+                document.body.style.overflow = '';
+            }, 250);
+        }
+
+        // Close on backdrop click
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        // Close on ESC
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
+            }
+        });
+
+        // Copy direct email button
+        function copyEmail() {
+            const email = "hello@pusparaja.com";
+            const textarea = document.createElement('textarea');
+            textarea.value = email;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            const copyText = document.getElementById('copy-text');
+            copyText.textContent = 'Copied!';
+            setTimeout(() => {
+                copyText.textContent = 'Copy';
+            }, 2000);
+        }
+
+        // Handle contact form submission
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const business = document.getElementById('business').value;
+            const industry = document.getElementById('industry').value;
+            const budget = document.getElementById('budget').value;
+            const message = document.getElementById('message').value;
+
+            // Trigger mailto client as fallback
+            const subject = encodeURIComponent(`Commercial Inquiry from ${business} (${name})`);
+            const body = encodeURIComponent(`Director Pusparaja,\n\nName: ${name}\nBusiness: ${business}\nIndustry: ${industry}\nBudget: ${budget}\n\nProject Scope:\n${message}`);
+            
+            const feedback = document.getElementById('form-feedback');
+            feedback.textContent = `Preparing your inquiry... If your email app does not launch automatically, write directly to hello@pusparaja.com`;
+            feedback.classList.remove('hidden');
+
+            setTimeout(() => {
+                window.location.href = `mailto:hello@pusparaja.com?subject=${subject}&body=${body}`;
+            }, 600);
+
+            document.getElementById('contact-form').reset();
+        }
+
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Initialize on window load
+        window.onload = function () {
+            renderProjects();
+            lucide.createIcons();
+        };
+    </script>
+</body>
+</html>
